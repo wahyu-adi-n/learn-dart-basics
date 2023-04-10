@@ -19,7 +19,7 @@ void main() {
   for (var food in favoriteFoods) {
     print("Food ${food}");
   }
-  
+
   print("Daftar Nilai: ");
   for (var nil in nilai.entries) {
     print("Mapel: ${nil.key} => ${nil.value}");
