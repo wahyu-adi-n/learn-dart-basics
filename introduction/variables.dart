@@ -2,6 +2,10 @@ var name = 'Wahyu Adi Nugroho';
 var bornYear = 2000;
 var weight = 70.03;
 
+var uang = 1039;
+var jumAnak = 20;
+var hitung = uang ~/ jumAnak;
+
 var favoriteFoods = ['Bakso', 'Mie Ayam', 'Sate'];
 
 var nilai = {
@@ -24,4 +28,6 @@ void main() {
   for (var nil in nilai.entries) {
     print("Mapel: ${nil.key} => ${nil.value}");
   }
+
+  print('Uang / 20 Anak: $hitung');
 }
